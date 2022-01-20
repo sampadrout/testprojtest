@@ -14,7 +14,9 @@ services:
       FIREFOX: "firefox:4444"
   chrome:
     image: selenium/standalone-chrome
-    shm_size: '2gb'
+    volumes:
+      - /dev/shm:/dev/shm
   firefox:
     image: selenium/standalone-firefox
-    shm_size: '2gb'
+    volumes:
+      - /dev/shm:/dev/shm
