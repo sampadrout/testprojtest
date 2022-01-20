@@ -9,7 +9,7 @@ services:
     environment:
       TP_API_KEY: "1Xm_1CtUmJqrM2548xFJkCcPdyc77VkegxXhlXSc5rw1"
       TP_JOB_ID: "5q9fU8eYl0W_WEXabMDVTw"
-      TP_JOB_PARAMS: '"jobParameters" : { "browsers" : ["Chrome","FireFox"]}'
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers" : ["Chrome"]}'
       CHROME: "chrome:4444"
       FIREFOX: "firefox:4444"
   chrome:
