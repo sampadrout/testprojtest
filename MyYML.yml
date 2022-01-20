@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  testproject-agent:
+    image: testproject/agent:latest
+    container_name: testproject-agent
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      TP_API_KEY: "WPorKFFjWDfD0XCVoQfgayu5ys_r1tfo0dn7CL0l0mQ1"
+      TP_JOB_ID: "PyOHcfkzdUuruX6qLpNIRA"
+      TP_JOB_PARAMS: '"jobParameters" : { "browsers" : ["Chrome","FireFox"]}'
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  chrome:
+    image: selenium/standalone-chrome
+    shm_size: '1gb'
+  firefox:
+    image: selenium/standalone-firefox
+    shm_size: '1gb'
