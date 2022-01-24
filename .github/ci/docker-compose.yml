@@ -14,6 +14,7 @@ services:
       FIREFOX: "firefox:4444"
     ports:
     - "8585:8585"
+    - "8686:8686"
   chrome:
     image: selenium/standalone-chrome
     shm_size: '1gb'
