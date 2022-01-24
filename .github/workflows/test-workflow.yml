@@ -27,6 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run TestProject Agent
-        run: docker-compose -f .github/ci/docker-compose.yml up -d
+        run: |
+        envsubst < .github/ci/docker-compose.yml > docker-compose.yml
+        docker-compose -f docker-compose.yml up -d
       - name: Wait for Agent to Register
         run: bash .github/ci/wait_for_agent.sh
