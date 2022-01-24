@@ -12,6 +12,8 @@ services:
       TP_JOB_PARAMS: '"jobParameters" : { "browsers" : ["Chrome", "FireFox"]}'
       CHROME: "chrome:4444"
       FIREFOX: "firefox:4444"
+    ports:
+    - "8585:8585"
   chrome:
     image: selenium/standalone-chrome
     shm_size: '1gb'
