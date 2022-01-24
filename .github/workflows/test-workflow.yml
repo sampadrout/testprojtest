@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run testproject job
-        run: docker-compose -f MyYML.yml up -d
+      - name: Run TestProject Agent
+        run: |
+        envsubst < .github/ci/docker-compose.yml > docker-compose.yml
+        docker-compose -f docker-compose.yml up -d
       - name: Wait for Agent to Register
         run: bash .github/ci/wait_for_agent.sh
