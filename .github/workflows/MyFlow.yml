@@ -29,4 +29,4 @@ jobs:
       - name: Run testproject job
         run: docker-compose -f MyYML.yml up -d
       - name: start test agent
-        run: testproject-agent run
+        run: bash testproject-agent run
