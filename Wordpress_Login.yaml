@@ -1,0 +1,456 @@
+id: mL9YkUaPSUGZxbDGZadC0g
+projectId: mDUnmkrGQ0iJTPFHFh7M4g
+projectName: WordPress
+created: 2022-02-09T12:01:39.9378263Z
+owner: Ajith H
+protocol: 1
+tests:
+- id: QWqwUhkewEKMSadECwnBKg
+  name: Wordpress Login
+  description: Login FLow
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-02-09T05:56:26.0000000
+  modificationDate: 2022-02-09T06:09:00.0000000
+  settings:
+    automationAssistant: true
+    appId: Ww910aq5XE-QAqI_KFGNmA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: Ww910aq5XE-QAqI_KFGNmA
+    name: Wordpress
+    url: https://wordpress.com/
+    platform: Web
+  steps:
+  - id: rGOdJhzy7k6MmSqBD7Lg8g
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 60pwd8oLjEiVklUfHPmebA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: Q5gmr5d81U6wfoIw2DuwTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Welcome to the world’s most
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AZwgSO9mEE2vAjg9tAweAQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 2Drg0up77EmyA_7RjHF0EQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uHjSHrO8G0eHr-k3lHZMkQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: Ayor7am7GUORR76Z37tFUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Username}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: e6wYAsxuHku8H8A9TNcx1Q
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: oEQeazoYk0uowgvea-6FsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yYa-H_9X3EGrgmGUx6j0UA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: MRZbmrIGn0KwHMQ7lqJhew
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 74qU_yay80W3qM7QxUwQ3A
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: MRZbmrIGn0KwHMQ7lqJhew
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0FH0mk9aEkqpNvSVstTzQQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 4wyz8pGpw0mCUgFUT7OXxA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f8RytclVcUizJADuEhZRag
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: ZoYc2JyfSUCYUw6656ri2A
+    settings:
+      sleepTime: -1
+      timeout: 60000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Success
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1lta1rxRN0iDvsLjJRtr8w
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: zoq8caqsP0CQqCBMxZUUeg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GGzZyZ8zTkCRBAmoodmjeg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: yam92wCpaUaBobOdtEjGdg
+    settings:
+      sleepTime: -1
+      timeout: 25000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: I-2vKeJJS0-YKawyimLXUA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: Q5gmr5d81U6wfoIw2DuwTA
+    settings:
+      sleepTime: -1
+      timeout: 25000
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Welcome to the world’s most
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://wordpress.com/
+    type: Input
+  - name: Username
+    description: Email address
+    value: ajith.hmath@gmail.com
+    type: Input
+  - name: Password
+    description: Password
+    value: New@123_
+    type: Input
+  tags:
+  - Web-Test
+auxTests: []
+elements:
+- id: Q5gmr5d81U6wfoIw2DuwTA
+  name: Welcome to the world’s most
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Welcome to the world’s most']
+    priority: 0
+  - name: XPATH
+    value: //h1/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/section[1]/div/div/div[1]/div[1]/div/div/h1/span[1]
+    priority: 2
+- id: 2Drg0up77EmyA_7RjHF0EQ
+  name: Log In
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      											Log In										']
+    priority: 0
+  - name: XPATH
+    value: //nav/ul[2]/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/nav/ul[2]/li[1]/a
+    priority: 2
+- id: Ayor7am7GUORR76Z37tFUw
+  name: usernameOrEmail
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#usernameOrEmail'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='usernameOrEmail']"
+    priority: 1
+  - name: XPATH
+    value: //form/div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div[1]/div/main/div/div/form/div[1]/div[1]/input
+    priority: 3
+- id: oEQeazoYk0uowgvea-6FsQ
+  name: Continue
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Continue']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div[1]/div/main/div/div/form/div[1]/div[2]/button
+    priority: 2
+- id: MRZbmrIGn0KwHMQ7lqJhew
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div[1]/div/main/div/div/form/div[1]/div[1]/div/div/input
+    priority: 3
+- id: 4wyz8pGpw0mCUgFUT7OXxA
+  name: Log In1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Log In']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div[1]/div/main/div/div/form/div[1]/div[2]/button
+    priority: 2
+- id: ZoYc2JyfSUCYUw6656ri2A
+  name: Write
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Write']
+    priority: 0
+  - name: XPATH
+    value: //header/div[2]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/header/div[2]/div/a/span
+    priority: 2
+- id: zoq8caqsP0CQqCBMxZUUeg
+  name: IMG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //span/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/header/div[3]/a[1]/span/img
+    priority: 1
+- id: yam92wCpaUaBobOdtEjGdg
+  name: Log out
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Log out']
+    priority: 0
+  - name: XPATH
+    value: //li/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div[1]/ul/li/div[2]/button
+    priority: 2
+projectParameters: []
+addons: []

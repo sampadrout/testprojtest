@@ -30,3 +30,5 @@ jobs:
         run: docker-compose -f MyYML.yml up -d
       - name: Wait for Agent to Register
         run: bash .github/ci/wait_for_agent.sh
+      - name: run test
+        run: bash testproject-agent run Wordpress_Login.yaml
